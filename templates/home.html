@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakes</title>
+</head>
+<body>
+    <h1>Cupcakes</h1>
+
+    <form id='cupcake-form'>
+        <h3>Add A Cupcake</h3>
+        <input type="text" name="flavor" id="flavor-input" placeholder="Flavor">
+        <input type="text" name="size" id="size-input" placeholder="Size">
+        <input type="text" name="rating" id="rating-input" placeholder="Rating">
+        <input type="text" name="image" id="image-input" placeholder="Image URL">
+        <button>Submit</button>
+    </form>
+
+    <ul id="cupcake-list">
+    </ul>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
